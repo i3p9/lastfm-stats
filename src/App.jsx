@@ -28,7 +28,7 @@ function App() {
 		useState(null);
 
 	const LASTFM_API_KEY = "3c2d925057341118cffa8934713275b4"; // Move this to an environment variable
-	const LASTFM_BASE_URL = "http://ws.audioscrobbler.com/2.0/";
+	const LASTFM_BASE_URL = "https://ws.audioscrobbler.com/2.0/";
 
 	const fetchStats = async () => {
 		try {
